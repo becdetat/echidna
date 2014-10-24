@@ -543,7 +543,7 @@
 
 
 // uncomment one of the following lines for RAMPS v1.3 or v1.0, comment both for v1.2 or 1.1
-// #define RAMPS_V_1_3
+ #define RAMPS_V_1_3
 // #define RAMPS_V_1_0
 
 
@@ -594,16 +594,18 @@
 
   #else
 
+    // ECHIDNA!
+
     #define X_STEP_PIN         26
     #define X_DIR_PIN          28
     #define X_ENABLE_PIN       24
-    #define X_MIN_PIN           3
+    #define X_MIN_PIN           -1  //3
     #define X_MAX_PIN           2
 
     #define Y_STEP_PIN         36
     #define Y_DIR_PIN          34
     #define Y_ENABLE_PIN       30
-    #define Y_MIN_PIN          14
+    #define Y_MIN_PIN          -1   // 14
     #define Y_MAX_PIN          15
 
     #define Z_STEP_PIN         54
