@@ -12,6 +12,8 @@
 // diameter and making the internalToBearing and externalToBearing
 // the same
 
+$fn = 70;
+
 //scaleFactorX = 1.17; // for sleeves
 scaleFactorX = 1;
 scaleFactorY = scaleFactorX;
@@ -38,8 +40,8 @@ smallBoltRadius = smallBoltDiameter / 2;
 untappedSmallBoltRadius = untappedSmallBoltDiameter / 2;
 
 scale([scaleFactorX,scaleFactorY,scaleFactorZ]) {
-	internalCarriage();
-	//externalCarriage();
+	//internalCarriage();
+	externalCarriage();
 	//bearingShaft();
 	//bearingShaftSleeve();
 	//bearingShaftSleeveInternal();
