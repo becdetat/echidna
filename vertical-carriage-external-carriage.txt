@@ -1,0 +1,11 @@
+Vertical carriage - external carriage notes
+===========================================
+
+Slice: Course & Solid
+Feedrate: 80
+Flowrate: 100
+
+Drill out the bearing rod holes to slightly less than 8 mm (7.5mm for example) so that the rods are a tight fit.
+
+Drill out the endstop adjustor bracket to 2.5 mm and tap using an M3 tap.
+

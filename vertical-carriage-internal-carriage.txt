@@ -1,0 +1,13 @@
+Vertical carriage - internal carriage notes
+===========================================
+
+Slice: Course & Solid
+Feedrate: 80
+Flowrate: 100
+
+Drill out the bearing rod holes to slightly less than 8 mm (7.5 mm for example) so that the rods are a tight fit.
+
+Drill out the swivel screw holes to 2.5 mm and tap using an M3 tap.
+
+Drill out the rod end bracket holes to 3 mm.
+
